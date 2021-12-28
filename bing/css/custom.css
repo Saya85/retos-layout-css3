@@ -1,0 +1,81 @@
+
+body{
+    height: 100vh;
+    background: url("/retos-layout-css3/bing/img/pexels-janik-butz-5366526.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 100%; 
+}
+#m-uno{
+    width: 50%;
+    display:flex; 
+    justify-content: start;
+    align-items: center;
+}
+#m-dos{
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+#m-uno li{
+     margin: 1em;
+}
+
+#m-dos li{
+    margin: 1em;
+}
+#bing img{
+    width: 18em;
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   #caja1{
+       width: 40%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-top: -30em;
+       margin-right: 20em;
+}
+#busqueda{
+    
+    text-align: center;
+    margin-left: 2em;
+    width: 80%;
+    padding: 0.5em 0em;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-top: 0.5em;
+    border: 3px solid rgb(202, 198, 198);
+    background-color: rgb(255, 255, 255);
+}
+
+#busqueda input{
+    width: 70%;
+   border: 0;
+   background-color: rgb(255, 255, 255);
+   
+}
+button{
+    background: none;
+    color: blue;  
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+ }
+ i{
+     margin: 0.5em;
+     
+ }
